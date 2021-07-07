@@ -1,9 +1,20 @@
-﻿
-
-void test_iniciarCalculadora{
-  if (Sys.WaitProcess("calc").Exists){
-    Log["Warning"]("Calculadora já aberta");
-  }
-  
+﻿function teste(){
+  test_iniciarCalculadora();
 }
 
+function test_iniciarCalculadora(){
+  Log["AppendFolder"]("Iniciar calculadora.");
+  if (Sys["WaitProcess"]("calc", 1000).Exists){
+    Log["Warning"]("Calculadora já aberta");
+  }else{
+    TestedApps["calc1"]["Run"](true);
+    Log["Message"]("Processo de executar a caluladora executado");
+ while (Sys["WaitProcess"]("calc1")["Exists"] == false){
+      Delay(500);
+    }
+  }
+  Log["PopLogFolder"]();
+}
+
+
+//Calculadora nova: Sys["WaitProcess"]("Microsoft.WindowsCalculator")["Exists"]

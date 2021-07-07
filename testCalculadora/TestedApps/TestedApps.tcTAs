@@ -5,12 +5,12 @@
 	<data />
 	<children>
 		<child key="{478A6265-3B55-4886-A20A-25D805FD2D74}">
-			<config nodeName="calc" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+			<config nodeName="calc1" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="calc.exe" filePath="C:\Windows\SysWOW64\" parameters="" workFolder="" />
+					<param name="Simple" fileName="calc1.exe" filePath="C:\Windows\SysWOW64\" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />

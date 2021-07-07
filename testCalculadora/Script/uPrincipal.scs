@@ -1,1 +1,27 @@
-﻿
+﻿function testButtons(){
+  //operações básicas
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "=", 28);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "+", 23);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "-", 22);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "*", 21);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "/", 20);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "", 2);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "CE", 8);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "C", 13);
+  
+  
+  //números
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "0", 6);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "1", 5);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "2", 11);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "3", 16)
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "4", 4);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "5", 10);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "6", 15);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "7", 3);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "8", 9);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "9", 14);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", ",", 17)
+  
+  
+}

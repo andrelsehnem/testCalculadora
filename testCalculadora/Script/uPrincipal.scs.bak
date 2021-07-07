@@ -1,1 +1,14 @@
-﻿
+﻿function testButtons(){
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "=", 28);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "+", 23);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "0", 6);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "1", 5);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "2", 11);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "3", 16)
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "4", 4);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "5", 10);
+  Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "6", 15);
+  
+  
+  
+}
