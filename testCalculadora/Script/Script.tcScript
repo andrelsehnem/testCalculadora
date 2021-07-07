@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="uPrincipal" key="{FA2FD467-E940-40F4-BA9E-C50ABD6A68FC}" path="uPrincipal.scs" />
+		<child name="uTesteExecucao" key="{2467DAE2-C6F9-4455-9CB1-9BC60CE1EC30}" path="uTesteExecucao.scs" />
+		<child name="uCodigo" key="{04D80668-4852-440D-9CAF-E2869A2F6B7C}" path="uCodigo.scs" />
+	</children>
+</Root>

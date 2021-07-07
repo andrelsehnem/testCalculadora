@@ -1,0 +1,9 @@
+﻿
+
+void test_iniciarCalculadora{
+  if (Sys.WaitProcess("calc").Exists){
+    Log["Warning"]("Calculadora já aberta");
+  }
+  
+}
+
