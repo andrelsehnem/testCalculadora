@@ -1,4 +1,4 @@
-﻿function testButtons(){
+﻿/*function testButtons(){
   //operações básicas
   Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "=", 28);
   Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", "+", 23);
@@ -24,4 +24,4 @@
   Sys["Process"]("calc1")["Window"]("CalcFrame", "Calculadora", 1)["Window"]("CalcFrame", "", 1)["Window"]("#32770", "", 2)["Window"]("Button", ",", 17)
   
   
-}
+}*/

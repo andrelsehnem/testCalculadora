@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{5AC329EA-71F8-4A70-BA83-986F3D0D6D9B}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="calc1" Key="{F3124CA6-AF31-446D-A954-5E0F429F7429}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="calc1" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndCalculadora" Key="{CA91C1EF-C421-4F0C-9D0B-F932DEB26FCD}">
+								<Image FileName="-1914076117" Left="0" Top="0" Right="228" Bottom="323" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CalcFrame" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Calculadora" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="CalcFrame" Key="{B7DEB168-13B0-4A2A-8A44-EBAE1BED55DB}">
+										<Image FileName="-1914076117" Left="8" Top="51" Right="220" Bottom="315" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="CalcFrame" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="page32770" Key="{DCA1DFAC-D1DC-4956-B3B0-4C1A6AA51DA2}">
+												<Image FileName="-1914076117" Left="19" Top="116" Right="209" Bottom="307" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="#32770" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btn1" Key="{1BBE9934-A628-4B40-97BF-884B12109030}">
+														<Image FileName="-1914076117" Left="19" Top="244" Right="53" Bottom="271" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="1" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn0" Key="{E749AC1F-6D4E-41C9-A2B4-390E003BD49A}">
+														<Image FileName="-1117220206" Left="19" Top="276" Right="92" Bottom="303" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn2" Key="{E56ABB82-E151-4E09-A039-383FCD017FA9}">
+														<Image FileName="1709684451" Left="58" Top="244" Right="92" Bottom="271" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="2" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn3" Key="{15289E5D-2879-4CD4-9873-F5E08F2C84A9}">
+														<Image FileName="68061842" Left="97" Top="244" Right="131" Bottom="271" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="3" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn4" Key="{E3B91479-6B3C-4D3B-B13D-57CF4DAE65AD}">
+														<Image FileName="-1929858000" Left="19" Top="212" Right="53" Bottom="239" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="4" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn5" Key="{6E3EA9D1-A740-40A5-8CC5-F40CA101123D}">
+														<Image FileName="-1991903604" Left="58" Top="212" Right="92" Bottom="239" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn6" Key="{BE96DB7C-AC80-4BCD-8495-E1704D46D379}">
+														<Image FileName="-270053725" Left="97" Top="212" Right="131" Bottom="239" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="6" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn7" Key="{502DEFB0-B1DC-444C-B3C5-235D5EE63612}">
+														<Image FileName="1988741931" Left="19" Top="180" Right="53" Bottom="207" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="7" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn8" Key="{0FD625A3-CAA4-495B-99DB-D6166AC382F0}">
+														<Image FileName="786681146" Left="58" Top="180" Right="92" Bottom="207" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="8" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn9" Key="{8B2EFE6F-895D-446F-91F6-3E529F78FCF3}">
+														<Image FileName="-8366946" Left="97" Top="180" Right="131" Bottom="207" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="9" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn" Key="{BAD74728-1E7D-4554-9A34-48EE57A58F0F}">
+														<Image FileName="872028919" Left="97" Top="276" Right="131" Bottom="303" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="," />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn10" Key="{88D68574-F6EA-4A59-A8BA-90F55007E799}">
+														<Image FileName="493518347" Left="136" Top="276" Right="170" Bottom="303" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="+" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn11" Key="{4FFC483B-7825-4F0D-8930-038C386FB6F3}">
+														<Image FileName="-795587840" Left="136" Top="244" Right="170" Bottom="271" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="-" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn12" Key="{458CCC46-5B73-4F9A-8568-704F19F883B5}">
+														<Image FileName="-710914848" Left="136" Top="212" Right="170" Bottom="239" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="**" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn13" Key="{1D940588-136C-4262-9FBC-07AE7A333CC5}">
+														<Image FileName="-1645143776" Left="136" Top="180" Right="170" Bottom="207" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="/" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn14" Key="{F279B64D-8E16-4CCC-95F1-32E577D1A13E}">
+														<Image FileName="-441265499" Left="175" Top="244" Right="209" Bottom="303" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="=" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn15" Key="{9337A1D0-B726-4854-BF6D-911E26BB5545}">
+														<Image FileName="-1369186101" Left="19" Top="148" Right="53" Bottom="175" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btnCE" Key="{90FA58EA-EC03-43EA-B432-997DC4C97B82}">
+														<Image FileName="-1454750994" Left="58" Top="148" Right="92" Bottom="175" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="CE" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btnC" Key="{EB804D72-AE38-445A-9259-0FE7B8F9354E}">
+														<Image FileName="1362361938" Left="97" Top="148" Right="131" Bottom="175" />
+														<TypeInfo Item0="{C2A4BD35-731B-4AC0-B308-4BB08A496B7C}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="C" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="calc1" Owner="{F3124CA6-AF31-446D-A954-5E0F429F7429}">
+			<Child Name="wndCalculadora" Owner="{CA91C1EF-C421-4F0C-9D0B-F932DEB26FCD}">
+				<Child Name="CalcFrame" Owner="{B7DEB168-13B0-4A2A-8A44-EBAE1BED55DB}">
+					<Child Name="page32770" Owner="{DCA1DFAC-D1DC-4956-B3B0-4C1A6AA51DA2}">
+						<Child Name="btn1" Owner="{1BBE9934-A628-4B40-97BF-884B12109030}" />
+						<Child Name="btn0" Owner="{E749AC1F-6D4E-41C9-A2B4-390E003BD49A}" />
+						<Child Name="btn2" Owner="{E56ABB82-E151-4E09-A039-383FCD017FA9}" />
+						<Child Name="btn3" Owner="{15289E5D-2879-4CD4-9873-F5E08F2C84A9}" />
+						<Child Name="btn4" Owner="{E3B91479-6B3C-4D3B-B13D-57CF4DAE65AD}" />
+						<Child Name="btn5" Owner="{6E3EA9D1-A740-40A5-8CC5-F40CA101123D}" />
+						<Child Name="btn6" Owner="{BE96DB7C-AC80-4BCD-8495-E1704D46D379}" />
+						<Child Name="btn7" Owner="{502DEFB0-B1DC-444C-B3C5-235D5EE63612}" />
+						<Child Name="btn8" Owner="{0FD625A3-CAA4-495B-99DB-D6166AC382F0}" />
+						<Child Name="btn9" Owner="{8B2EFE6F-895D-446F-91F6-3E529F78FCF3}" />
+						<Child Name="btn" Owner="{BAD74728-1E7D-4554-9A34-48EE57A58F0F}" />
+						<Child Name="btn10" Owner="{88D68574-F6EA-4A59-A8BA-90F55007E799}" />
+						<Child Name="btn11" Owner="{4FFC483B-7825-4F0D-8930-038C386FB6F3}" />
+						<Child Name="btn12" Owner="{458CCC46-5B73-4F9A-8568-704F19F883B5}" />
+						<Child Name="btn13" Owner="{1D940588-136C-4262-9FBC-07AE7A333CC5}" />
+						<Child Name="btn14" Owner="{F279B64D-8E16-4CCC-95F1-32E577D1A13E}" />
+						<Child Name="btn15" Owner="{9337A1D0-B726-4854-BF6D-911E26BB5545}" />
+						<Child Name="btnCE" Owner="{90FA58EA-EC03-43EA-B432-997DC4C97B82}" />
+						<Child Name="btnC" Owner="{EB804D72-AE38-445A-9259-0FE7B8F9354E}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
