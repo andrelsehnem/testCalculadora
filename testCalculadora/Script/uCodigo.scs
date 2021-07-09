@@ -96,24 +96,49 @@ function testeSoma1e2(){
   botoesCliques("=");
 }
 
+
+
 function calcular(calculo){
   var cont;
-  var w;
-  //w = CallMethod(calculo,"length");
-//  w =  ;
-
-  cont = 1;
-  while ( aqConvert["StrToInt"](cont) <= aqConvert["StrToInt"](w) ){
-    Log["Message"](calculo[cont]);
+  var w ;
+  var resultado;
+  var pos;
+  
+  Log["AppendFolder"]("Calculo: " + calculo);
+  w = aqString["GetLength"](calculo);
+  var calc = Aliases["calc1"]["wndCalculadora"]["CalcFrame"]["page32770"];
+  cont = 0;
+  while ( cont < aqConvert["StrToInt"](w)){
+    botoesCliques(calculo[cont]);
+    if (calculo[cont] == "="){
+      pos = cont;
+      cont = w;
+    }   
     cont++;
   }
- 
+  resultado = aqString["Remove"](calculo,0, pos+1);
+  verificaResultado(resultado);
+  Log["PopLogFolder"]();
+}
+
+function verificaResultado(resultado){
+  var w;
+  w = Aliases["calc1"]["wndCalculadora"]["CalcFrame"]["Window"]("#32770", "", 1)["Window"]("Static", "*", 3)["WndCaption"];
+  
+  if (w == resultado){
+    Log["Message"]("Resultado correto.");
+  }else{
+    Log["Error"]("Resultado errado!");
+  }
 }
 
 function testeOperacao(){
-  Log["Message"]("teste1");
-  calcular("calcular");
-  Log["Message"]("teste");
+  test_iniciarCalculadora();
+  botoesCliques("CE");
+  calcular("23+2=25");
+  botoesCliques("CE");
+  calcular("23+2=4");
+  
 }
 
 
