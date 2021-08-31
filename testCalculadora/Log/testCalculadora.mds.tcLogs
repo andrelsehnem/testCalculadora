@@ -30,6 +30,24 @@
 				<Prp name="relpath" type="S" value="09_07_2021_14_25_43_875\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44386.6604232292"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E5E48F50-8580-43D2-A824-3B655A8AEB69}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [uCodigo\testeOperacao]"/>
+				<Prp name="relpath" type="S" value="09_07_2021_15_51_00_567\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44386.6797070139"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{49C96FB9-CEE8-4941-8203-C2F949A30347}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [uCodigo\testeOperacao]"/>
+				<Prp name="relpath" type="S" value="09_07_2021_16_18_46_686\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

@@ -3,7 +3,7 @@ function teste(){
   test_iniciarCalculadora();
 }
 
-function test_iniciarCalculadora(){
+function iniciarCalculadora(){
   Log["AppendFolder"]("Iniciar calculadora.");
   if (Sys["WaitProcess"]("calc1", 1000).Exists){
     Log["Warning"]("Calculadora já aberta");
@@ -26,7 +26,7 @@ function botoesCliques(botao){
   var calc = Aliases["calc1"]["wndCalculadora"]["CalcFrame"]["page32770"];
   
   while (!w2.Exists){
-    test_iniciarCalculadora();
+    iniciarCalculadora();
   }
   
   switch (botao){
@@ -75,7 +75,7 @@ function botoesCliques(botao){
     case "=": 
     calc["btn14"]["ClickButton"](); // =
     break;
-    /*case "<-": 
+    /*case "": 
     calc["btn15"]["ClickButton"](); // <-
     break;*/
     case "CE": 
@@ -88,15 +88,13 @@ function botoesCliques(botao){
   Log["PopLogFolder"]();
 }
 
-function testeSoma1e2(){
+function testeSoma1e2(){ //TESTE ANTIGO
   botoesCliques("CE");
   botoesCliques("1");
   botoesCliques("+");
   botoesCliques("2");
   botoesCliques("=");
 }
-
-
 
 function calcular(calculo){
   var cont;
@@ -133,12 +131,9 @@ function verificaResultado(resultado){
 }
 
 function testeOperacao(){
-  test_iniciarCalculadora();
+  iniciarCalculadora();
   botoesCliques("CE");
   calcular("23+2=25");
   botoesCliques("CE");
-  calcular("23+2=4");
-  
+  calcular("23+2=4"); 
 }
-
-
